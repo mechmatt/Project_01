@@ -68,12 +68,13 @@ var adviceArray = [
 	"Are you doing too many things?",
 	"Have you face a similar situation? Whats different? What's the same?",
 	"Are you trying to be the hero?",
-	""
 	];
 
 var randPos = Math.floor(adviceArray.length*Math.random());
 
-console.log(adviceArray[randPos]);
-
 var text = adviceArray[randPos];
-document.getElementById("text").innerHTML = text;
+document.getElementById("advice").innerHTML = text;
+
+
+
+

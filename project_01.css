@@ -1,5 +1,56 @@
 body {
-	background-color: #678ca2	
-	/*P { text-align: center}*/
+	font-family: arial;
+	font-size: 12px;
+	margin: 0px;
 }
 
+header {
+	/*font-size: 16px;*/
+	background:#999;
+	margin: 0px;
+	padding: 15px 15px 0px 15px;
+}
+
+header h1 {
+	margin: 0px;
+	display: inline;
+}
+
+nav ul{
+	font-size: 12px;
+	margin: 0px;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+nav ul li {
+	background:#888;
+	color:white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+}
+
+nav ul li a {
+	color:white;
+}
+
+
+#advice {
+	font-size: 14px;
+	background-color: #999;
+	text-align: center;
+	vertical-align:text-middle;
+	width:50%;
+	min-height: 50px	;
+	margin: 0px;
+	padding: 5px 15px;
+	float:center;
+	border-radius: 8px;
+	position: middle;
+}
+
+footer {
+	font-size: 9px;
+	clear:both;
+}
